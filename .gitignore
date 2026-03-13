@@ -1,0 +1,62 @@
+# ===========================================
+# 도구별 설정 디렉토리
+# ===========================================
+
+# Claude Code
+.claude/
+
+# Gemini CLI
+.gemini/
+
+# Antigravity
+.agent/
+
+# Cursor
+.cursor/
+.cursorignore
+.cursorindexingignore
+
+# VS Code / Copilot
+.vscode/
+.copilot/
+.github/
+
+# Codex
+.codex/
+
+# ===========================================
+# 도구별 루트 설정 파일
+# ===========================================
+
+# Claude Code
+CLAUDE.local.md
+CLAUDE.md
+.claudeignore
+
+# Gemini CLI
+GEMINI.md
+
+# Codex CLI
+AGENTS.md
+AGENTS.override.md
+
+# Cursor (레거시)
+.cursorrules
+
+# ===========================================
+# OS / 에디터 임시 파일
+# ===========================================
+.DS_Store
+Thumbs.db
+[dD]esktop.ini
+*.swp
+*.swo
+*~
+
+# ===========================================
+# 기타
+# ===========================================
+*.pyc
+__pycache__/
+node_modules/
+.env
